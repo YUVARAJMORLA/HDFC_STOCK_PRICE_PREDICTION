@@ -15,6 +15,7 @@ from alpha_vantage.fundamentaldata import FundamentalData
 from stocknews import StockNews
 from textblob import TextBlob
 import nltk
+nltk.download('vader_lexicon')
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import tensorflow as tf
 import plotly.graph_objects as go
